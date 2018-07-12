@@ -6,14 +6,15 @@ article
       text-transform: none
       font-size: 1.5em
       line-height: 1.25
+      color: $color-accent-1
 
     .meta
       margin-top: 0
       margin-bottom: 1rem
 
     .meta *
-      color: $color-accent-3
-      font-size: .85rem
+      color: $color-accent-2
+      font-size: .80rem
 
     .author
       text-transform: uppercase
@@ -24,11 +25,13 @@ article
       display: inline
 
   .content
+    h1
+      color: $color-accent-1
     h2:before
       position: absolute
       top: -4px
       left: -1rem
-      color: $color-accent-1
+      color: $color-accent-3
       content: "#"
       font-weight: bold
       font-size: 1.2rem
